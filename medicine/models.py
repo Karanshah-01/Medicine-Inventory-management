@@ -11,5 +11,5 @@ class Medicine(models.Model):
     # total_price = models.DecimalField(max_digits=12, decimal_places=2)
 
     class Meta:
-        managed = False  # ❗ Tells Django not to try creating or migrating this table
+        managed = False  # Tells Django not to try creating or migrating this table
         db_table = 'medicines'
